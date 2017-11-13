@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="DesignLogin.css" type="text/css" rel="stylesheet" />
+		<style>
+			#form1{
+			border: 1px solid black;
+			background-color:#fccfcf;
+			padding:10px 0;
+			text-align:center;
+			
+			}
+			#nav ul li a{
+			color:white;
+			}
+			
+		</style>
+    </head>
+<body style="background-color:green;">
+    <nav id="nav">
+				
+                <ul>
+                    <li><a href="frontpage.html" title="Home">Home</a></li>
+                    <li><a href="#" >Products</a></li>
+                    <li><a href="#" >Contact</a></li>
+                    <li><a href="Login.html">LOGIN</a></li>
+                </ul>
+				
+    </nav>
+	<br/><br/>
+	<div id="form1">
+		<form  action="insert.php" method="post">
+			
+			First name:&nbsp;&nbsp;
+			<input type="text" name="firstName" >
+			<br/><br/>
+			Last name:&nbsp;&nbsp;
+			<input type="text" name="lastName" >
+			<br/><br/>
+			Username:&nbsp;&nbsp;
+			<input type="text" name="userName" >
+			<br/><br/>
+			Password:&nbsp;&nbsp;
+			<input type="password" name="password" >
+			<br/><br/>
+			Confirm Password:&nbsp;&nbsp;
+			<input type="password" name="password" >
+			<br/><br/>
+			Phone:&nbsp;&nbsp;
+			<input type="text" name="phone" >
+			<br/><br/>
+			NID:&nbsp;&nbsp;
+			<input type="text" name="nid" >
+			<br/><br/>
+			
+			DOB:&nbsp;&nbsp;
+			<select name="date">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			</select>
+			<select name="month">
+				<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="May">May</option>
+			</select>
+			<select name="year">
+				 <option value="1960">1960</option>
+				 <option value="1961">1961</option>
+				 <option value="1962">1962</option>
+				 <option value="1963">1963</option>
+				 <option value="1964">1964</option>
+				 <option value="1965">1965</option>
+				 <option value="1966">1966</option>
+				 <option value="1967">1967</option>
+			</select>
+			<br><br>
+			
+			Sex: &nbsp; &nbsp; 
+            <input type="radio" name="gender" value="male" > Male &nbsp;
+			<input type="radio" name="gender" value="female"> Female &nbsp;
+			<input type="radio" name="gender" value="other"> Others
+			<br/><br/>
+			Address: <br/>
+			<textarea name="address"rows="4" cols="50"></textarea>
+			<input type="submit" name="submit" value="Submit">
+			
+		</form>
+	</div>
+	
+</body>
+			

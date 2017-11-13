@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="DesignLogin.css" type="text/css" rel="stylesheet" />
+		<style>
+			#form1{
+			border: 1px solid black;
+			background-color:#fccfcf;
+			padding:10px 0;
+			text-align:center;
+			
+			}
+			#nav ul li a{
+			color:white;
+			}
+			
+		</style>
+    </head>
+<body style="background-color:green;">
+    <nav id="nav">
+				
+                <ul>
+                    <li><a href="frontpage.html" title="Home">Home</a></li>
+                    <li><a href="#" >Products</a></li>
+                    <li><a href="#" >Contact</a></li>
+                    <li><a href="Login.html">LOGIN</a></li>
+                </ul>
+				
+    </nav>
+	<br/><br/>
+	<div id="form1">
+		<form  action="insertproductprice.php" method="post">
+			
+			Product Name:&nbsp;&nbsp;
+			<input type="text" name="productName" >
+			<br/><br/>
+			Product Quality:&nbsp;&nbsp;
+			<input type="text" name="productQuality" >
+			<br/><br>
+			Product Price:&nbsp;&nbsp;
+			<input type="text" name="productPrice" >
+			&nbsp;&nbsp;
+			
+			<input type="submit" name="submit" value="Submit">
+			
+		</form>
+	</div>
+	
+</body>
+			

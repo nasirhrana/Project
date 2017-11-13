@@ -1,0 +1,23 @@
+#header
+{
+    background-color:aliceblue;
+    border: none;
+    
+}
+#nav
+{
+    height: 50px;
+    background-color:cornflowerblue;
+    
+}
+
+#nav ul
+{
+    list-style-type: none;
+    
+}
+#nav ul li
+{
+    float: left;
+    padding: 8px 40px;
+}
